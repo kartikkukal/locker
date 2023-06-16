@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    
+    <TextView
+        android:id="@+id/service"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/poppins"
+        android:textFontWeight="600"
+        android:textSize="22sp"
+        
+        android:text="Google"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/identity"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/poppins"
+        android:textSize="14sp"
+
+        android:text="kartikkukal@gmail.com"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp" />
+    
+</LinearLayout>

@@ -22,6 +22,7 @@ import com.google.android.material.search.SearchBar
 import com.google.android.material.search.SearchView
 import com.kevlar.locker.adapters.AccountsViewAdapter
 import com.kevlar.locker.adapters.SearchViewAdapter
+import com.kevlar.locker.dialogs.createLicensesDialog
 import com.kevlar.locker.dialogs.createImportDatabasePrompt
 import com.kevlar.locker.dialogs.createMasterPasswordPrompt
 import com.kevlar.locker.fragments.AddAccountDialog
@@ -126,6 +127,10 @@ class PasswordManager: AppCompatActivity() {
             }
             R.id.import_database -> {
                 readExportedDatabase.launch(arrayOf("application/json"))
+                true
+            }
+            R.id.licenses -> {
+                createLicensesDialog(layoutInflater, this)
                 true
             }
             else -> super.onOptionsItemSelected(item)

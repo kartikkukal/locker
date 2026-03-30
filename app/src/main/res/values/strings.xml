@@ -22,6 +22,7 @@
     <string name="update">Update</string>
     <string name="export_database">Export database</string>
     <string name="import_database">Import database</string>
+    <string name="licenses">Licenses</string>
     <string name="search_for_accounts">Search for accounts</string>
     <string name="password_too_short">Password length too short.</string>
     <string name="password_too_long">Password length too long.</string>
